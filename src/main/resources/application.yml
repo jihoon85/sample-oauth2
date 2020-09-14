@@ -1,0 +1,16 @@
+spring:
+  thymeleaf:
+    cache: false
+  security:
+    oauth2:
+      client:
+        registration:
+          ssis2:
+            client-id: FTu0RUE9ZoRVNWQf3eKwU8LYF1oa
+            client-secret: PfHB89jucu9pCwgXfRuXpd3PDI0a
+        provider:
+          ssis2:
+            authorization-uri: http://account.example.com:9763/oauth2/authorize
+            token-uri: http://account.example.com:9763/oauth2/token
+            user-info-uri: http://account.example.com:9763/oauth2/userinfo
+            jwk-set-uri: http://account.example.com:9763/oauth2/jwks
